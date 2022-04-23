@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
     <title>1D - Elementary Cellular Automata</title>
-</head>
-<body>
-    
-</body>
+    <style>
+        #des{
+            margin: 10px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div id="form-rule">
+        <form id = "rule" onsubmit="changeRule();return false">
+        <table>
+            <tr>
+                <td>111</td>
+                <td>110</td>
+                <td>101</td>
+                <td>100</td>
+                <td>011</td>
+                <td>010</td>
+                <td>001</td>
+                <td>000</td>
+            </tr>
+            <tr>
+                    <td><input form = "rule" type="checkbox" name="111"></td>
+                    <td><input  form = "rule" type="checkbox" name="110"></td>
+                    <td><input  form = "rule" type="checkbox" name="101"></td>
+                    <td><input  form = "rule" type="checkbox" name="100"></td>
+                    <td><input  form = "rule" type="checkbox" name="011"></td>
+                    <td><input  form = "rule" type="checkbox" name="010"></td>
+                    <td><input  form = "rule" type="checkbox" name="001"></td>
+                    <td><input  form = "rule" type="checkbox" name="000"></td>
+                    <td><button  form = "rule" type="submit">Confirm Rule</button></td>
+            </tr>
+            </table>
+        </form>
+    </div>
+
+    <div id="des">
+        <button id = "PlayPause" onclick="Control()">Play</button>
+        <button id = "Clear" onclick="Clear()">Clear</button>
+    </div>
+
+    <main>
+    </main>
+    <script src="1dsketch.js"></script>
+  </body>
 </html>

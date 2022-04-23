@@ -1,4 +1,4 @@
-var canvaswidth =  800;
+var canvaswidth =  1400;
 var canvasheight = 600;
 var len = 40;
 var cols = canvaswidth / len; 
@@ -11,7 +11,7 @@ var Neighbours_count = [];
 // Drawing section
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(1400, 600);
   for (var i = 0; i < rows; i++){
     colors[i] = [];
     Neighbours_count[i] = [];
