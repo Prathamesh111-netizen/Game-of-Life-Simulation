@@ -1,0 +1,53 @@
+body{
+    /* margin : 0; */
+    /* overflow: hidden; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#des{
+    margin: 10px;
+}
+
+#container{
+    position: fixed; /*or fixed*/
+    left: 1000px;
+    float: right;
+    width: 100%;
+    background-color: #e7e7e7; color: black;
+    padding-left: 10px;
+}
+
+#rule td{
+    padding: 4px;
+}
+
+#ruleDirect td{
+    padding-right: 48px;
+}
+button {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#Clear{
+    background-color: #f44336;
+}
+#PlayPause{
+    background-color: #008CBA;
+}
+
+img{
+    height:120px
+}
+
+#name{
+    /* background-color: #008CBA; */
+    color: rgb(0, 0, 0);
+    padding: 0.25px;
+}

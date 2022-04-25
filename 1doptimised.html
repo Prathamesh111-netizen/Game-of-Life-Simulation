@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="1dstyle.css">
+    <title>1D - Elementary Cellular Automata</title>
+    <style>
+        
+    </style>
+  </head>
+  <body>
+
+<div id="container">
+    <div id="boxfunction">
+        <div id="form-rule">
+            <form id = "rule" onsubmit="changeRule();return false">
+            <table>
+                <tr>
+                    <td>111</td>
+                    <td>110</td>
+                    <td>101</td>
+                    <td>100</td>
+                    <td>011</td>
+                    <td>010</td>
+                    <td>001</td>
+                    <td>000</td>
+                </tr>
+                <tr>
+                        <td><input form = "rule" type="checkbox" name="111"></td>
+                        <td><input  form = "rule" type="checkbox" name="110"></td>
+                        <td><input  form = "rule" type="checkbox" name="101"></td>
+                        <td><input  form = "rule" type="checkbox" name="100"></td>
+                        <td><input  form = "rule" type="checkbox" name="011"></td>
+                        <td><input  form = "rule" type="checkbox" name="010"></td>
+                        <td><input  form = "rule" type="checkbox" name="001"></td>
+                        <td><input  form = "rule" type="checkbox" name="000"></td>
+                </tr>
+                <tr>
+                    <td colspan="6"><button  form = "rule" type="submit">Confirm Rule</button></td>
+                </tr>
+                </table>
+            </form>
+        </div>
+
+        <hr>
+
+        <div id="form-rule">
+            <form id = "ruleDirect" onsubmit="changeRuleDirect();return false">
+            <table>
+                <tr>
+                    <td>Rule 30</td>
+                    <td>Rule 54</td>
+                </tr>
+                <tr>
+                        <td><input form = "ruleDirect" type="checkbox" name="30"></td>
+                        <td><input form = "ruleDirect" type="checkbox" name="54"></td>
+                </tr>
+                <tr>
+                    <td>Rule 90</td>
+                    <td>Rule 94</td>
+                </tr>
+                <tr>
+                        <td><input form = "ruleDirect" type="checkbox" name="90"></td>
+                        <td><input  form = "ruleDirect" type="checkbox" name="94"></td>
+                </tr>
+                <tr>
+                    <td>Rule 110</td>
+                    <td>Rule 150</td>
+                </tr>
+                <tr>
+                        <td><input form = "ruleDirect" type="checkbox" name="110"></td>
+                        <td><input  form = "ruleDirect" type="checkbox" name="150"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button  form = "ruleDirect" type="submit">Confirm Rule</button></td>
+                </tr>
+                </table>
+            </form>
+        </div>
+
+        <hr>
+    
+        <div id="des">
+            <p> Actions : </p>
+            <button id = "PlayPause" onclick="Control()">Play</button>
+            <button id = "Clear" onclick="Clear()">Clear</button>
+        </div>
+
+        <hr>
+
+        <div id="reg">
+            <h4> Current status of system : </h4>
+            <div>
+            <span>Total Generations : <span id="currentGen">1</span></span>
+            </div>
+            <div>
+            <span>Time elapsed : <span id="timeelap">1</span></span>
+            </div>
+
+        </div>
+
+        <hr>
+        <div id ="name" >
+           <b> <i ><p >Elementary Cellular Automaton Simulator</p> </i></b> 
+        </div>
+
+
+    </div>
+</div>
+    
+    <script src="1dsketchoptimised.js" ></script>
+  </body>
+</html>

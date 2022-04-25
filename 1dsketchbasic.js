@@ -1,6 +1,6 @@
 var canvaswidth =  800;
 var canvasheight = 600;
-var len = 2;
+var len = 4;
 var cols = canvaswidth / len; 
 var rows = canvasheight / len;
 var Colour = 1
@@ -19,7 +19,6 @@ function setup() {
       colors[i].push(255);
       if ( i == 0 && j == cols / 2){
         colors[i][j] = 1
-        console.log("hhh")
         }
     }
   }
