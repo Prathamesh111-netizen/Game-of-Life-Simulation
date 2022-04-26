@@ -3,7 +3,7 @@
   <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="1dstyle.css">
     <meta charset="utf-8" />
     <title>1D - Elementary Cellular Automata</title>
     <style>
@@ -14,6 +14,7 @@
 
   </head>
   <body>
+    <main>
     <div id="form-rule">
         <form id = "rule" onsubmit="changeRule();return false">
         <table>
@@ -47,7 +48,15 @@
         <button id = "Clear" onclick="Clear()">Clear</button>
     </div>
 
-    <main>
+    <div id="reg">
+      <h4> Current status of system : </h4>
+      <div>
+      <span>Total Generations : <span id="currentGen">1</span></span>
+      </div>
+      <div>
+      <span>Time elapsed : <span id="timeelap">1</span></span>
+      </div>
+  </div>
     </main>
     <script src="1dsketchbasic.js"></script>
   </body>

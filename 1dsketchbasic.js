@@ -8,6 +8,7 @@ var noColour = 255
 
 var colors = [];
 var currentGeneration = 0;
+var time = 0;
 
 // Drawing section
 
@@ -109,6 +110,10 @@ function __nextGeneration(){
         colors[currentGeneration + 1][j] = nextGenValue == true ? Colour : noColour;
     }
     currentGeneration++;
+    var totalgen = document.getElementById("currentGen");
+    totalgen.innerHTML = currentGeneration;
+    var timeelap = document.getElementById("timeelap");
+    timeelap.innerHTML =( Date.now() - time)/1000;
 }
 
 
@@ -127,6 +132,8 @@ function Control(){
     button.innerHTML = "Play";
   }
   else{
+    if (time == 0)
+      time = Date.now()
     button.innerHTML = "Pause";
     GenID = setInterval(__nextGeneration, 1);
   }
@@ -139,4 +146,5 @@ function Clear(){
       colors[i][j] = 255;
 
     currentGeneration = 0;
+    time = 0;
 }

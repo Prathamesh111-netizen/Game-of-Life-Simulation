@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="2dstyle.css">
+    <meta charset="utf-8" />
+    <title>2D - Game of Life</title>
+
+  </head>
+  <body>
+    <div id="container">
+        <div id="boxfunction">
+    
+            <div id="form-rule">
+                <form id = "ruleDirect" onsubmit="changeRuleDirect();return false">
+                <table>
+                    <tr>
+                        <td>Glider</td>
+                        <td>Glider Gun</td>
+                    </tr>
+                    <tr>
+                            <td><input form = "ruleDirect" type="checkbox" name="Glider"></td>
+                            <td><input form = "ruleDirect" type="checkbox" name="GliderGun"></td>
+                    </tr>
+                    <tr>
+                        <td>Spaceship</td>
+                        <td>Pulsar</td>
+                    </tr>
+                    <tr>
+                            <td><input form = "ruleDirect" type="checkbox" name="Spaceship"></td>
+                            <td><input  form = "ruleDirect" type="checkbox" name="Pulsar"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button  form = "ruleDirect" type="submit">Confirm Rule</button></td>
+                    </tr>
+                    </table>
+                </form>
+            </div>
+    
+            <hr>
+
+            <div>
+                <form onsubmit = "getfutureGen();return false;">
+                <p>Enter Future Generation :</p>
+                <input type="text" name="futuregen" id="futuregen">
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+
+            <hr>
+        
+            <div id="des">
+                <p> Actions : </p>
+                <button id = "PlayPause" onclick="Control()">Play</button>
+                <button id = "Clear" onclick="Clear()">Clear</button>
+            </div>
+    
+            <hr>
+    
+            <div id="reg">
+                <h4> Current status of system : </h4>
+                <div>
+                <span>Total Generations : <span id="currentGen">1</span></span>
+                </div>
+                <div>
+                <span>Time elapsed : <span id="timeelap">1</span></span>
+                </div>
+            </div>
+    
+            <hr>
+            <div id ="name" >
+               <b> <i ><p>Game of Life</p> </i></b> 
+            </div>
+    
+    
+        </div>
+    </div>
+    <main>
+    </main>
+    <script  src="2dsketchoptimised.js"></script>
+  </body>
+</html>
