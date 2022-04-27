@@ -5,10 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+             background-image: url("https://wallpaperaccess.com/full/1170713.jpg");
+             /* background-color: #cccccc; */
+             height: 100%;
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+            }
+            @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+/* 
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #1d1e21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.kave-btn {
+  position: relative;
+  border: solid 1px rgba(0, 214, 252, 0.3);
+  background: none;
+  color: rgb(252, 235, 0);
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1.8px;
+  width: 200px;
+  height: 70px;
+  padding: 0;
+  transition: all 0.25s ease;
+  outline: none;
+}
+.kave-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 60px;
+  height: 1px;
+  transform: translateY(-1px);
+  background: #00d6fc;
+  transition: all 0.25s ease;
+}
+.kave-btn:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 60px;
+  height: 1px;
+  transform: translateY(1px);
+  background: #121213;
+  transition: all 0.25s ease;
+}
+.kave-btn:hover {
+  box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+  color: #00d6fc;
+  text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+}
+.kave-btn:hover.kave-btn:before {
+  left: 0;
+  width: 20px;
+}
+.kave-btn:hover.kave-btn:after {
+  right: 0;
+  width: 20px;
+}
+.kave-btn:hover .kave-line:before {
+  bottom: 0;
+}
+.kave-btn:hover .kave-line:after {
+  top: 0;
+}
+.kave-line:before {
+  content: "";
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+  width: 1px;
+  height: 20px;
+  transform: translateX(1px);
+  background: #00d6fc;
+  transition: all 0.25s ease;
+}
+.kave-line:after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 1px;
+  height: 20px;
+  transform: translateX(-1px);
+  background: #00d6fc;
+  transition: all 0.25s ease;
+}
+    </style>
 </head>
 <body>
-    <a href="1dbasic.html"> 1D - Elementary Cellular Automata Basic, Slow, naive way</a>    <br>
-    <a href="1doptimised.html"> 1D - Elementary Cellular Automata Most Optimised, as per requirement</a>    <br>
-    <a href="2d.html"> 2D - Game of Life</a>    
+
+    <a href="1dbasic.html">
+    <button class="kave-btn">
+        <span class="kave-line">
+        </span>
+        1D - SLOW
+    </button>
+    </a> 
+
+    <a href="1doptimised.html">
+    <button class="kave-btn">
+        <span class="kave-line">
+        </span>
+        1D - FAST
+    </button>
+    </a> 
+
+    <a href="2dbasic.html">
+    <button class="kave-btn">
+        <span class="kave-line">
+        </span>
+        2D - SLOW
+    </button>
+    </a> 
+
+    <a href="2doptimised.html">
+    <button class="kave-btn">
+        <span class="kave-line">
+        </span>
+        2D - FAST
+    </button>
+    </a> 
+
+    
+      
 </body>
 </html>
