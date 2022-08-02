@@ -1,6 +1,6 @@
 # DAA-project-sem-4
 
-Deployment : https://prathamesh111-netizen.github.io/Game-of-Life-Simulation---DAA-sem-4-project/
+Deployment :https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/
 ![image](https://user-images.githubusercontent.com/79742694/180504500-6a77c766-7509-4e90-ab10-8c3b0b9ff5a6.png)
 
 ![image](https://user-images.githubusercontent.com/79742694/180502555-ca6c11bd-44a5-4b61-bdc7-f448ee1ded56.png)
