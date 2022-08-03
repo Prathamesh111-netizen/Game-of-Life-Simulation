@@ -2,7 +2,7 @@
 
 Deployment :https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/
 
-[![image](https://user-images.githubusercontent.com/79742694/182608819-098424d2-13a1-4bfe-ab8a-f8fb7828981b.png)](https://youtu.be/xkflRKNt940)
+[![image](https://user-images.githubusercontent.com/79742694/182609401-d95c21ef-e3b7-496c-a37b-bebdf7cb89eb.png)](https://youtu.be/X2f02nzOWXE)
 
 
 ![image](https://user-images.githubusercontent.com/79742694/180504500-6a77c766-7509-4e90-ab10-8c3b0b9ff5a6.png)
