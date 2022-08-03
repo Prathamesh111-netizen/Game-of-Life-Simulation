@@ -3,19 +3,19 @@
 Deployment :https://prathamesh111-netizen.github.io/Game-of-Life-Simulation/
 
 [![image](https://user-images.githubusercontent.com/79742694/182609557-a7bf84a3-82a8-4d44-8778-0c6898fecd0e.png)](https://youtu.be/X2f02nzOWXE)
-
+<br><br><br><br><br><br><br>
 
 ![image](https://user-images.githubusercontent.com/79742694/180504500-6a77c766-7509-4e90-ab10-8c3b0b9ff5a6.png)
-
+<br><br><br><br><br><br><br>
 ![image](https://user-images.githubusercontent.com/79742694/180502555-ca6c11bd-44a5-4b61-bdc7-f448ee1ded56.png)
-
+<br><br><br><br><br><br><br>
 One Dimentional Cellular Automaton
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/79742694/180504322-5be55432-372f-4a78-8d0b-459345c0d08c.gif)
-
+<br><br><br><br><br><br><br>
 # Two Dimentional Cellular Automaton
 ## Glider Gun in action<br/>
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/79742694/180503604-961c4458-1dff-4486-9477-7e8da12fcc3f.gif)
-
+<br><br><br><br><br><br><br>
 ![image](https://user-images.githubusercontent.com/79742694/180504547-0abb199b-5d27-4a27-ad0d-cc7d77e4d929.png)
 ![image](https://user-images.githubusercontent.com/79742694/180504576-2ef1911b-8739-4f06-86e0-2eb03e227acf.png)
 ![image](https://user-images.githubusercontent.com/79742694/180504604-9e49d2da-6d8a-49ca-bea8-bfa30fa01cea.png)
